@@ -4,10 +4,9 @@ A small Flask application that returns the public Gists for a GitHub user.
 
 ## Requirements
 
-- Ubuntu or another Linux machine
+- Rocky Linux machine
 - Docker
-- Docker Compose (`docker-compose`)
-- Internet access from the machine to `api.github.com`
+- Docker Compose
 
 ## 1. Open the project folder
 
