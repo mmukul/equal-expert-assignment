@@ -3,15 +3,16 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
+
 @app.get("/health")
 def health():
     return jsonify({"status": "ok"})
+
 
 @app.get("/<username>")
 def get_gists(username):
     try:
         url = f"https://api.github.com/users/{username}/gists"
-
         response = requests.get(url, timeout=15)
 
         if response.status_code == 404:
