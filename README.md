@@ -11,7 +11,7 @@ A small Flask application that returns the public Gists for a GitHub user.
 ## 1. Open the project folder
 
 ```bash
-cd github-gists-api
+cd equal-expert-assignment
 ```
 
 ## 2. Build the application
@@ -39,19 +39,9 @@ curl http://localhost:8080/health
 curl http://localhost:8080/octocat
 ```
 
-The API returns the user's public Gists as JSON. Replace `octocat` with another GitHub username to retrieve that user's public Gists.
-
 ## 6. Run the automated tests
-
-Install the Python packages:
 
 ```bash
 python3 -m pip install -r requirements.txt
-```
-
-Run the tests:
-
-```bash
 python3 -m unittest -v
 ```
-
