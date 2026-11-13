@@ -30,6 +30,9 @@ docker-compose up -d
 
 ```bash
 docker-compose ps
+```
+
+```
 curl http://localhost:8080/health
 ```
 
@@ -43,5 +46,8 @@ curl http://localhost:8080/octocat
 
 ```bash
 python3 -m pip install -r requirements.txt
+```
+
+```
 python3 -m unittest -v
 ```
