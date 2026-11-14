@@ -17,7 +17,7 @@ cd equal-expert-assignment
 ## 2. Build the application
 
 ```bash
-docker-compose build
+docker compose up --build
 ```
 
 ## 3. Start the application
