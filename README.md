@@ -45,11 +45,6 @@ curl http://localhost:8080/octocat
 ## 6. Run the automated tests
 
 ```bash
-sudo apt update
-sudo apt install python3-full python3-venv python3-pip -y
-python3 -m venv venv
-source venv/bin/activate
-python -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 ```
 
